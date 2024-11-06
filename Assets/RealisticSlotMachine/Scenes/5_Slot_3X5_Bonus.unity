@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3708708, g: 0.37838137, b: 0.35725543, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -386,6 +386,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SlotMenuController
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831349630922011578, guid: a2fddf89300094ea3852b38b58ddbaee,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 848677422}
+    - target: {fileID: 6831349630922011578, guid: a2fddf89300094ea3852b38b58ddbaee,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenSpinGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831349630922011578, guid: a2fddf89300094ea3852b38b58ddbaee,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Mkey.DailySpinController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 9180853527073207868, guid: a2fddf89300094ea3852b38b58ddbaee,
         type: 3}
@@ -1981,6 +1996,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7e6b4992ffaeb34990a5f8c619a82b6, type: 3}
+--- !u!114 &848677422 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6587223902836568242, guid: e7e6b4992ffaeb34990a5f8c619a82b6,
+    type: 3}
+  m_PrefabInstance: {fileID: 848677421}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 567873986781127418049795336ba8cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &873777751
 GameObject:
   m_ObjectHideFlags: 0
@@ -3474,8 +3501,8 @@ Transform:
   m_GameObject: {fileID: 1704424439}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 1.0248914, y: 1.0248914, z: 1.0248914}
+  m_LocalPosition: {x: 0, y: -0.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 806794296}
@@ -3499,10 +3526,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6d93d527ae863d4babed7bda02ab721, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseRatio: 1.333984
-  baseRatioOld: 1.333984
-  Height_Width: 0.04
-  Height_WidthOld: 0.04
+  baseRatio: 1
+  baseRatioOld: 1
+  Height_Width: 0
+  Height_WidthOld: 0
   additionalScale: 1
   additionalScaleOld: 1
   useLerpScale: 0
@@ -5725,7 +5752,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.94, y: 1.93}
+    oldSize: {x: 3.925, y: 2.6}
     newSize: {x: 2.33, y: 1.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

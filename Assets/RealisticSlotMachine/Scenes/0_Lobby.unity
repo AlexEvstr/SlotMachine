@@ -1007,7 +1007,6 @@ GameObject:
   - component: {fileID: 850745387}
   - component: {fileID: 850745386}
   - component: {fileID: 850745385}
-  - component: {fileID: 850745388}
   m_Layer: 5
   m_Name: ChestBtn
   m_TagString: Untagged
@@ -1079,20 +1078,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 850745386}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 850745388}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: ShowPopUp
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 6491196817476793259, guid: 3b5298c12e9cb0942be3157e85644b41,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: Mkey.PopUpsController, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &850745386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1131,18 +1117,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 850745383}
   m_CullTransparentMesh: 0
---- !u!114 &850745388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 850745383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78e9adb7bed7cc049ab899915d9cca86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &913606550
 GameObject:
   m_ObjectHideFlags: 0
@@ -1258,7 +1232,8 @@ GameObject:
   m_Component:
   - component: {fileID: 945660740}
   - component: {fileID: 945660739}
-  - component: {fileID: 945660738}
+  - component: {fileID: 945660741}
+  - component: {fileID: 945660742}
   m_Layer: 0
   m_Name: AdMob
   m_TagString: Untagged
@@ -1266,18 +1241,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &945660738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 945660737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 064cc09f32b3db44c947fa14fe0810c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &945660739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1310,6 +1273,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &945660741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945660737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7015867184247009bf1e1fcf8f8ec7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _testMode: 0
+--- !u!114 &945660742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945660737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db0b6e4a940a48b2a1d64ba6bed52a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showAdButton: {fileID: 850745385}
+  popUpsController: {fileID: 6491196817476793259, guid: 3b5298c12e9cb0942be3157e85644b41,
+    type: 3}
 --- !u!1001 &964599920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3238,7 +3229,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -665.2654}
+  m_AnchoredPosition: {x: 0, y: 385}
   m_SizeDelta: {x: 1250, y: 750}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4686664778865195164
