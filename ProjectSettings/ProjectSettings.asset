@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 0
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: 'Slots Casino: spin2win'
+  companyName: CH ENGINEERING AND SERVICES PTE. LTD
+  productName: Slots Casino
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -137,7 +137,7 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  bundleVersion: 1.0.15
+  bundleVersion: 1.0.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -160,7 +160,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.mkey.FullRealisticSlot
     Standalone: com.mkey.FullRealisticSlot
-    iPhone: com.test.gamevibro
+    iPhone: com.spinwin.slotcas
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -569,7 +569,8 @@ PlayerSettings:
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 1
   cameraUsageDescription: 
-  locationUsageDescription: 
+  locationUsageDescription: Used to enhance user experience and provide relevant
+    information based on location.
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
   macOSTargetOSVersion: 10.13.0

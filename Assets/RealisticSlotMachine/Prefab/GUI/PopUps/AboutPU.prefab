@@ -247,7 +247,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.2, y: -175.7}
+  m_AnchoredPosition: {x: -1.2, y: -251}
   m_SizeDelta: {x: 356, y: 73.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222715451301205434
@@ -461,7 +461,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -5.6, y: 195}
+  m_AnchoredPosition: {x: -5.6, y: 119.70001}
   m_SizeDelta: {x: 389, y: 152}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222759447212243014
@@ -570,7 +570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c0fc704cecd47d4ba9ee1ef87377b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SUPPORT_URL: http://mkeystudio.com/
+  SUPPORT_URL: https://ch-engineering-and-services-pte-ltd.jimdosite.com
 --- !u!114 &3812417704755416567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,7 +583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9484e689775c8c444a6932193ab4abac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickSound: {fileID: 0}
+  clickSound: {fileID: 8300000, guid: 5ad0b751a39ec544696b6df4b9084f50, type: 3}
 --- !u!1 &1753167342558768
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,7 +896,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: 13}
+  m_AnchoredPosition: {x: -2, y: -25}
   m_SizeDelta: {x: -288, y: 73.4}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &222632475992761598
@@ -940,7 +940,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.9
-  m_Text: "DEVELOPED BY\n MASTER KEY"
+  m_Text: 'DEVELOPED BY
+
+    CH ENGINEERING AND
+
+    SERVICES PTE. LTD'
 --- !u!1 &4736490285019695460
 GameObject:
   m_ObjectHideFlags: 0

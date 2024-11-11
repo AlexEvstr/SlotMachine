@@ -295,7 +295,7 @@ namespace Mkey
 
             if (!controls.ApplyBet())
             {
-                MGUI.ShowMessage(null, "You have no money.", 1.5f, null);
+                MGUI.ShowMessage(null, "You have no coins.", 1.5f, null);
                 controls.ResetAutoSpinsMode();
                 return;
             }
